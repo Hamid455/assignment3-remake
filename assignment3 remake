@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="H.ASS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+<form>
+    <hr>
+    <h1>Responsive Registration <br> Form</h1>
+        
+<i class="fa fa-envelope" aria-hidden="true"></i>
+    <input  id="input1" type="text" name="email" placeholder="email"><br>
+<i class="fa fa-unlock-alt" aria-hidden="true"></i> 
+    <input  id="input1" type="password" name="password" placeholder="password"><br>
+<i class="fa fa-unlock-alt" aria-hidden="true"></i> 
+    <input  id="input1" type="password" name="password" placeholder="Re-Type password"><br>
+<i class="fa fa-address-book" aria-hidden="true"></i>
+    <input  id="names" type="text" name="fname" placeholder="First Name">
+<i class="fa fa-address-book" aria-hidden="true"></i>
+    <input  id="names" type="text" name="lname" placeholder="Last Name"><br><br>
+<label id="gender">
+    <input  type="radio" name="gender">Male
+    <input  type="radio" name="gender">Female 
+</label><br><br>
+<select id="cars">
+    <option value="Honda">Honda</option> 
+    <option value="Volvo">Volvo</option>
+    <option value="Mercedes">Mercedes</option>
+</select><br><br>
+<div class="radio">
+    <input id="agree" type="radio" name="check">I agree with terms and conditions<br>
+    <input type="radio" name="check">I don't agree with terms and conditions
+</div><br><br><br>
+<button class="btn">Register</button>
+</form>
+</div>
+
+
+</body>
+</html>
+
+CSS
+
+
+.container{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+         
+}
+
+hr{
+    padding: 3px;
+    background-color: orange;
+}
+
+
+
+#input1{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+#names{
+    width: 125px;
+    margin: 10px;
+}
+
+#gender{
+    float:left;
+}
+
+#cars{
+   
+    width: 325px;
+}
+
+.radio{
+    float: left;
+    
+}
+
+#agree{
+    margin-left: -30px;
+}
+
+.btn{
+    background-color: orange;
+    width:350px;
+    border: 0ch;
+    padding: 10px;
+    color:white;
+}
